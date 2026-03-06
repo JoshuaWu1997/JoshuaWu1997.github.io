@@ -159,4 +159,4 @@ whitelist:
 compress_html:
   clippings: all
   ignore:
-    envs: development
+    envs: all  # Disabled: compress layout has Liquid bug causing GitHub Pages build failure
