@@ -29,17 +29,6 @@ B.S. in Statistics, Minor in Computer Science and Engineering
   * Machine Learning: NeurIPS, ICLR, AISTAT, ICML
   * Data Mining and Recommendation: KDD, CIKM, SIGIR, WWW, TKDE
 
-## US Patents
-
-{% if site.data.publications.patents and site.data.publications.patents.size > 0 %}
-{% for item in site.data.publications.patents %}
-* **{{ item.title }}** <br>
-  {{ item.authors }}. <br>
-  <span style="background-color: #e6f6ff; padding: 2px; border-radius: 5px;">{{ item.venue }}, {{ item.year }}</span>
-
-{% endfor %}
-{% endif %}
-
 <!-- ## Awards
  -->
 
