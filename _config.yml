@@ -1,12 +1,17 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
 # Site Settings
-url                      : ""
-baseurl                  : ""
 title                    : "Junda (Joshua) Wu"
 description              : "Ph.D. Student @ UC San Diego"
 repository               : "JoshuaWu1997.github.io"
 google_scholar_stats_use_cdn : false
 
-# google analytics (leave empty to disable)
+# google analytics
 google_analytics_id      : 
 
 # SEO Related
@@ -69,6 +74,7 @@ exclude:
   - CHANGELOG
   - Capfile
   - Gemfile
+  - Gruntfile.js
   - LICENSE
   - README
   - Rakefile
@@ -112,6 +118,7 @@ kramdown:
 
 # Defaults
 defaults:
+  # _pages
   - scope:
       path: ""
       type: pages
@@ -123,12 +130,12 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -139,6 +146,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jemoji
+# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -147,6 +155,7 @@ whitelist:
 
 
 # HTML Compression
+# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
