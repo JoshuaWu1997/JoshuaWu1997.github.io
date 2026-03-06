@@ -1,5 +1,7 @@
 # Selected Publications 
 
+<small>*† Corresponding author*</small>
+
 {% for item in site.data.publications.featured %}
 * **{{ item.title }}** <br>
   {{ item.authors }}. <br>
