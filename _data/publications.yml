@@ -4,7 +4,7 @@
 featured:
   - title: 'Ctrls: Chain-of-thought reasoning via latent state-transition'
     authors: '**Junda Wu**, Yuxin Xiong, Xintong Li, Sheldon Yu, Z Hu, Tong Yu, Rui Wang, Xiang Chen, Jingbo Shang, Julian McAuley'
-    venue: 'arXiv 2025'
+    venue: 'AISTATS 2026'
 
   - title: 'Pdb-eval: An evaluation of large multimodal models for description and explanation of personalized driving behavior'
     authors: '**Junda Wu**, J Echterhoff, K Han, A Abdelraouf, R Gupta, Julian McAuley'
@@ -12,7 +12,7 @@ featured:
 
   - title: 'In-context ranking preference optimization'
     authors: '**Junda Wu**, Rohan Surana, Zhouhang Xie, Yiran Jenny Shen, Yu Xia, Tong Yu, Ryan A. Rossi, P Ammanabrolu, Julian McAuley'
-    venue: 'arXiv 2025'
+    venue: 'COLM 2025'
     url: 'https://arxiv.org/abs/2504.15477'
 
   - title: 'Collap: Contrastive long-form language-audio pretraining with musical temporal structure augmentation'
@@ -28,19 +28,10 @@ featured:
     authors: '**Junda Wu**, Xintong Li, Rui Wang, Yu Xia, Yuxin Xiong, Jianing Wang, Tong Yu, Xiang Chen, Branislav Kveton, Ryan A. Rossi, Julian McAuley'
     venue: 'ICLR 2025'
 
-  - title: 'Personalized multimodal large language models: A survey'
-    authors: '**Junda Wu**, H Lyu, Yu Xia, Zhehao Zhang, Joe Barrow, I Kumar, M Mirtaheri, Hongjie Chen, Tong Yu, Ryan A. Rossi, Julian McAuley'
-    venue: 'arXiv 2024'
-
   - title: 'Mitigating Visual Knowledge Forgetting in MLLM Instruction-tuning via Modality-decoupled Gradient Descent'
     authors: '**Junda Wu**, Yuxin Xiong, Xintong Li, Yu Xia, Ruoyu Wang, Yu Wang, Tong Yu, Sungchul Kim, Ryan A. Rossi, Lina Yao, Jingbo Shang, Julian McAuley'
     venue: 'EMNLP 2025 Findings'
     url: 'https://aclanthology.org/2025.findings-emnlp.123/'
-
-  - title: 'Visual Prompting in Multimodal Large Language Models: A Survey'
-    authors: '**Junda Wu**, Zhehao Zhang, Yu Xia, Xintong Li, Zhaoyang Xia, Aaron Chang, Tong Yu, Sungchul Kim, Ryan A. Rossi, Ruiyi Zhang, Subrata Mitra, Dimitris N. Metaxas, Lina Yao, Jingbo Shang, Julian McAuley'
-    venue: 'arXiv 2024'
-    url: 'https://arxiv.org/abs/2409.15310'
 
   - title: 'DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention'
     authors: '**Junda Wu**, Tong Yu, Xiang Chen, Haoliang Wang, Ryan Rossi, Sungchul Kim, Anup Rao, Julian McAuley'
@@ -49,12 +40,12 @@ featured:
 
   - title: 'CoRAL: Collaborative Retrieval-Augmented Large Language Models Improve Long-tail Recommendation'
     authors: '**Junda Wu**, Cheng-Chun Chang, Tong Yu, Zhankui He, Jianing Wang, Yupeng Hou, Julian McAuley'
-    venue: 'arXiv 2024'
+    venue: 'SIGKDD 2024'
     url: 'https://arxiv.org/abs/2403.06447'
 
   - title: 'FUTGA: Towards Fine-grained Music Understanding through Temporally-enhanced Generative Augmentation'
     authors: '**Junda Wu**, Zachary Novack, Amit Namburi, Jiaheng Dai, Hao-Wen Dong, Zhouhang Xie, Carol Chen, Julian McAuley'
-    venue: 'NLP4MusA 2024'
+    venue: 'ICASSP 2024'
     url: 'https://aclanthology.org/2024.nlp4musa-1.17/'
 
   - title: 'InfoPrompt: Information-Theoretic Soft Prompt Tuning for Natural Language Understanding'
@@ -90,11 +81,6 @@ featured:
     authors: '**Junda Wu**, Canzhe Zhao, Tong Yu, Jingyang Li, Shuai Li'
     venue: 'CIKM 2021'
     url: 'https://dl.acm.org/doi/10.1145/3459637.3482328'
-
-  - title: 'Sim-to-real interactive recommendation via off-dynamics reinforcement learning'
-    authors: '**Junda Wu**, Zhihui Xie, Tong Yu, Qizhi Li, Shuai Li'
-    venue: 'NeurIPS 2021 Workshop'
-    url: 'https://offline-rl-neurips.github.io/2021/pdf/50.pdf'
 
 
 index:
