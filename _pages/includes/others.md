@@ -44,7 +44,7 @@ B.S. in Statistics, Minor in Computer Science and Engineering
  -->
 
 ## Visitors
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=343739&w=300&t=tt&d=KYawSvUri0xviH0XUuFXADAU5jT8Jz6CcEo2-YUIe20&co=ffffff&cmo=009fff&cmn=18e0ff&ct=cdd4d9'></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=8-WHBrayP-2dmMb1hUEosPHOk__04NXeYa8qEFbfIdw&cl=ffffff&w=a"></script>
 
 ## Full Publication List
 
