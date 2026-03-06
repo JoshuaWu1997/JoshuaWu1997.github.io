@@ -16,6 +16,7 @@ You can find my papers on [Google Scholar](https://scholar.google.com/citations?
 
 **Recommended Recent Recordings (keep updating)**
 
+<div class="album-row-wrapper">
 <div class="album-row">
 {% for rec in site.data.albums.recordings %}
   <div class="album-item">
@@ -28,6 +29,7 @@ You can find my papers on [Google Scholar](https://scholar.google.com/citations?
     </div>
   </div>
 {% endfor %}
+</div>
 </div>
 
 Outside of research, I have a diverse set of passions that keep me balanced:
