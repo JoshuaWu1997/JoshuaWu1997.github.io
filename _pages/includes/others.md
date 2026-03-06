@@ -2,11 +2,32 @@
 
 
 # CV
+[Download CV](/docs/CV-General-PhD.pdf)
+
 ## Educations
 
+* :trident: **University of California San Diego**, Sep 2023 – Now <br>
+Ph.D. in Computer Science
+
+* :part_alternation_mark: **New York University**, Sep 2021 – May 2023 <br>
+M.S. in Computer Engineering
+
+* 🦶 **Chongqing University**, Sep 2016 – Jul 2020 <br>
+B.S. in Statistics, Minor in Computer Science and Engineering
 
 ## Experiences
 
+* Research Scientist Intern
+  * 🅰️ **Adobe Research**, San Jose — Jun 2024 – Nov 2024 <br>
+  Multimodal Retrieval in AI Assistant for AEP; Developed Doc-React algorithm for document question-answering
+  * 🅰️ **Adobe Research**, San Jose — May 2023 – Aug 2023 <br>
+  Knowledge Graph Enhanced Chain-of-Thought Reasoning for Next Prompt Recommendation
+  * 🅰️ **Adobe Research**, San Jose — May 2022 – Dec 2022 <br>
+  Progressive Image Compression and Syncing for real-time collaborative image editing
+* Conference Reviewer
+  * ACL Rolling Review: ACL, EMNLP, NAACL, COLING
+  * Machine Learning: NeurIPS, ICLR, AISTAT, ICML
+  * Data Mining and Recommendation: KDD, CIKM, SIGIR, WWW, TKDE
 
 ## Interesting Projects
 
@@ -30,6 +51,7 @@
 
 {% endfor %}
 
+{% if site.data.publications.patents and site.data.publications.patents.size > 0 %}
 ### US Patents
 
 {% for item in site.data.publications.patents %}
@@ -38,8 +60,8 @@
   <span style="background-color: #e6f6ff; padding: 2px; border-radius: 5px;">{{ item.venue }}, {{ item.year }}</span>
 
 {% endfor %}
+{% endif %}
 
 </details>
 
 <br>
-

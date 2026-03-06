@@ -23,5 +23,5 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
-  # hawkins removed - not supported by GitHub Pages (causes build failure)
+  gem 'hawkins'
 end
