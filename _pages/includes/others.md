@@ -30,6 +30,15 @@
 
 {% endfor %}
 
+### US Patents
+
+{% for item in site.data.publications.patents %}
+* **{{ item.title }}** <br>
+  {{ item.authors }}. <br>
+  <span style="background-color: #e6f6ff; padding: 2px; border-radius: 5px;">{{ item.venue }}, {{ item.year }}</span>
+
+{% endfor %}
+
 </details>
 
 <br>

@@ -41,7 +41,6 @@ index:
   # 2025
   - {title: 'CSyMR: Benchmarking Compositional Symbolic Muisc Reasoning With MIR Tool Integration', authors: 'B Wang, Yash Vishe, X Xu, Zachary Novack, Julian McAuley, **Junda Wu**', venue: 'arXiv 2025'}
   - {title: 'MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation', authors: 'Yash Vishe, E Xue, X Jiang, Zachary Novack, **Junda Wu**, Julian McAuley, X Xu', venue: 'arXiv 2025'}
-  - {title: 'Chain-of-thought machine-learning model debiasing', authors: 'Haoliang Wang, Xiang Chen, Tong Yu, Sungchul Kim, Ryan A. Rossi, **Junda Wu**, Anup Rao', venue: 'US Patent 2025'}
   - {title: 'Listwise Preference Diffusion Optimization for User Behavior Trajectories Prediction', authors: 'H Huang, C Huang, **Junda Wu**, Tong Yu, Julian McAuley, Lina Yao', venue: 'arXiv 2025'}
   - {title: 'Weakly-supervised vlm-guided partial contrastive learning for visual language navigation', authors: 'Rui Wang, Tong Yu, **Junda Wu**, Y Liu, Julian McAuley, Lina Yao', venue: 'IROS 2025'}
   - {title: 'Importance Sampling for Multi-Negative Multimodal Direct Preference Optimization', authors: 'Xintong Li, C Wang, **Junda Wu**, Rohan Surana, Tong Yu, Julian McAuley, Jingbo Shang', venue: 'arXiv 2025'}
@@ -53,7 +52,6 @@ index:
   - {title: 'Ctrls: Chain-of-thought reasoning via latent state-transition', authors: '**Junda Wu**, Yuxin Xiong, Xintong Li, Sheldon Yu, Z Hu, Tong Yu, Rui Wang, Xiang Chen, Jingbo Shang, Julian McAuley', venue: 'arXiv 2025'}
   - {title: 'Pdb-eval: An evaluation of large multimodal models for description and explanation of personalized driving behavior', authors: '**Junda Wu**, J Echterhoff, K Han, A Abdelraouf, R Gupta, Julian McAuley', venue: 'IV 2025'}
   - {title: 'A personalized conversational benchmark: Towards simulating personalized conversations', authors: 'L Li, P Cai, Ryan A. Rossi, Franck Dernoncourt, Branislav Kveton, **Junda Wu**, Tong Yu, L Song, Julian McAuley, Ruiyi Zhang, Sungchul Kim', venue: 'arXiv 2025'}
-  - {title: 'Transferable clustering of contextual bandits for cloud service resource allocation', authors: 'Kanak Mahadik, Tong Yu, **Junda Wu**', venue: 'US Patent 2025'}
   - {title: 'Cacheprune: Neural-based attribution defense against indirect prompt injection attacks', authors: 'Rui Wang, **Junda Wu**, Yu Xia, Tong Yu, Ruiyi Zhang, Ryan A. Rossi, Subrata Mitra, Lina Yao, Julian McAuley', venue: 'arXiv 2025'}
   - {title: 'A survey of foundation model-powered recommender systems: From feature-based, generative to agentic paradigms', authors: 'C Huang, H Huang, Tong Yu, Kaige Xie, **Junda Wu**, S Zhang, Julian McAuley, D Jannach, Lina Yao', venue: 'arXiv 2025'}
   - {title: 'Interactive Visualization Recommendation with Hier-SUCB', authors: 'S Hu, Ryan A. Rossi, Tong Yu, **Junda Wu**, Handong Zhao, Sungchul Kim, Shuai Li', venue: 'WWW 2025'}
@@ -62,9 +60,6 @@ index:
   - {title: 'A survey on personalized and pluralistic preference alignment in large language models', authors: 'Zhouhang Xie, **Junda Wu**, Yiran Jenny Shen, Yu Xia, Xintong Li, Aaron Chang, Ryan A. Rossi, S Kumar, Julian McAuley', venue: 'COLM 2025'}
   - {title: 'Collap: Contrastive long-form language-audio pretraining with musical temporal structure augmentation', authors: '**Junda Wu**, W Li, Zachary Novack, Amit Namburi, C Chen, Julian McAuley', venue: 'ICASSP 2025'}
   - {title: 'Towards agentic recommender systems in the era of multimodal large language models', authors: 'C Huang, **Junda Wu**, Yu Xia, Z Yu, Rui Wang, Tong Yu, Ruiyi Zhang, Ryan A. Rossi, Branislav Kveton, Julian McAuley, Lina Yao', venue: 'arXiv 2025'}
-  - {title: 'Progressive image compression and syncing', authors: '**Junda Wu**, Haoliang Wang, Tong Yu, S Petrangeli, G Wu, V Swaminathan, Sungchul Kim, Ryan A. Rossi', venue: 'US Patent 2025'}
-  - {title: 'Dialogue skeleton assisted prompt transfer for dialogue summarization', authors: 'Tong Yu, Kaige Xie, **Junda Wu**, Handong Zhao, Ruiyi Zhang, Kanak Mahadik, Ani Nenkova', venue: 'US Patent 2025'}
-  - {title: 'Dialogue state aware dialogue summarization', authors: 'Haoliang Wang, Kaige Xie, Tong Yu, **Junda Wu**, Handong Zhao, Ruiyi Zhang, Kanak Mahadik, Ani Nenkova', venue: 'US Patent 2025'}
   - {title: 'Active learning for direct preference optimization', authors: 'Branislav Kveton, Xintong Li, Julian McAuley, Ryan A. Rossi, Jingbo Shang, **Junda Wu**, Tong Yu', venue: 'arXiv 2025'}
   - {title: 'Traceable and Explainable Multimodal Large Language Models: An Information-Theoretic View', authors: 'Zihan Huang, **Junda Wu**, Rohan Surana, R Jain, Tong Yu, R Addanki, David Arbour, Sungchul Kim, Julian McAuley', venue: 'COLM 2025'}
   - {title: 'From Selection to Generation: A Survey of LLM-based Active Learning', authors: 'Yu Xia, Subhojyoti Mukherjee, Zhouhang Xie, **Junda Wu**, Xintong Li, Ryan Aponte, Hanjia Lyu, Joe Barrow, Hongjie Chen, Franck Dernoncourt, Branislav Kveton, Tong Yu, Ruiyi Zhang, Jiuxiang Gu, Nesreen K. Ahmed, Yu Wang, Xiang Chen, Hanieh Deilamsalehy, Sungchul Kim, Zhengmian Hu, Yue Zhao, Nedim Lipka, Seunghyun Yoon, Ting-Hao Kenneth Huang, Zichao Wang, Puneet Mathur, Soumyabrata Pal, Koyel Mukherjee, Zhehao Zhang, Namyong Park, Thien Huu Nguyen, Jiebo Luo, Ryan A. Rossi, Julian McAuley', venue: 'ACL 2025', url: 'https://aclanthology.org/2025.acl-long.708/'}
@@ -81,7 +76,6 @@ index:
   - {title: 'A Survey on Small Language Models', authors: 'Chien Van Nguyen, Xuan Shen, Ryan Aponte, Yu Xia, Samyadeep Basu, Zhengmian Hu, Jian Chen, Mihir Parmar, Sasidhar Kunapuli, Joe Barrow, **Junda Wu**, Ashish Singh, Yu Wang, Jiuxiang Gu, Nesreen K. Ahmed, Nedim Lipka, Ruiyi Zhang, Xiang Chen, Tong Yu, Sungchul Kim, Hanieh Deilamsalehy, Namyong Park, Michael Rimer, Zhehao Zhang, Huanrui Yang, Puneet Mathur, Gang Wu, Franck Dernoncourt, Ryan A. Rossi, Thien Huu Nguyen', venue: 'RANLP 2025', url: 'https://aclanthology.org/2025.ranlp-1.93/'}
 
   # 2024
-  - {title: 'Contextual query generation', authors: 'Haoliang Wang, Tong Yu, Sungchul Kim, Ruiyi Zhang, P Xu, **Junda Wu**, Handong Zhao, Ani Nenkova', venue: 'US Patent 2024'}
   - {title: 'Personalized multimodal large language models: A survey', authors: '**Junda Wu**, H Lyu, Yu Xia, Zhehao Zhang, Joe Barrow, I Kumar, M Mirtaheri, Hongjie Chen, Tong Yu, Ryan A. Rossi, Julian McAuley', venue: 'arXiv 2024'}
   - {title: 'Ocean: Offline chain-of-thought evaluation and alignment in large language models', authors: '**Junda Wu**, Xintong Li, Rui Wang, Yu Xia, Yuxin Xiong, Jianing Wang, Tong Yu, Xiang Chen, Branislav Kveton, Ryan A. Rossi, Julian McAuley', venue: 'ICLR 2025'}
   - {title: 'Personalization of large language models: A survey', authors: 'Zhehao Zhang, Ryan A. Rossi, Branislav Kveton, Y Shao, D Yang, H Zamani, Franck Dernoncourt, **Junda Wu**, Tong Yu, Julian McAuley', venue: 'TMLR 2025'}
@@ -115,3 +109,11 @@ index:
   - {title: 'Clustering of conversational bandits for user preference learning and elicitation', authors: '**Junda Wu**, Canzhe Zhao, Tong Yu, Jingyang Li, Shuai Li', venue: 'CIKM 2021', url: 'https://dl.acm.org/doi/10.1145/3459637.3482328'}
   - {title: 'Deconfounded and explainable interactive vision-language retrieval of complex scenes', authors: '**Junda Wu**, Tong Yu, Shuai Li', venue: 'ACM MM 2021', url: 'https://dl.acm.org/doi/10.1145/3474085.3475366'}
   - {title: 'Sim-to-real interactive recommendation via off-dynamics reinforcement learning', authors: '**Junda Wu**, Zhihui Xie, Tong Yu, Qizhi Li, Shuai Li', venue: 'NeurIPS 2021 Workshop', url: 'https://offline-rl-neurips.github.io/2021/pdf/50.pdf'}
+
+patents:
+  - {title: 'Chain-of-thought machine-learning model debiasing', authors: 'Haoliang Wang, Xiang Chen, Tong Yu, Sungchul Kim, Ryan A. Rossi, **Junda Wu**, Anup Rao', venue: 'US Patent App. 18/673,547', year: 2025}
+  - {title: 'Transferable clustering of contextual bandits for cloud service resource allocation', authors: 'Kanak Mahadik, Tong Yu, **Junda Wu**', venue: 'US Patent 12,294,529', year: 2025}
+  - {title: 'Progressive image compression and syncing', authors: '**Junda Wu**, Haoliang Wang, Tong Yu, S Petrangeli, G Wu, V Swaminathan, Sungchul Kim, Ryan A. Rossi', venue: 'US Patent App. 18/451,201', year: 2025}
+  - {title: 'Dialogue skeleton assisted prompt transfer for dialogue summarization', authors: 'Tong Yu, Kaige Xie, **Junda Wu**, Handong Zhao, Ruiyi Zhang, Kanak Mahadik, Ani Nenkova', venue: 'US Patent App. 18/355,901', year: 2025}
+  - {title: 'Dialogue state aware dialogue summarization', authors: 'Haoliang Wang, Kaige Xie, Tong Yu, **Junda Wu**, Handong Zhao, Ruiyi Zhang, Kanak Mahadik, Ani Nenkova', venue: 'US Patent App. 18/343,389', year: 2025}
+  - {title: 'Contextual query generation', authors: 'Haoliang Wang, Tong Yu, Sungchul Kim, Ruiyi Zhang, P Xu, **Junda Wu**, Handong Zhao, Ani Nenkova', venue: 'US Patent App. 18/339,694', year: 2024}
