@@ -6,6 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+# Use custom layouts (_layouts/) - disable default theme for GitHub Pages
+theme                    : null
 title                    : "Junda (Joshua) Wu"
 description              : "Ph.D. Student @ UC San Diego"
 repository               : "JoshuaWu1997.github.io"
