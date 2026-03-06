@@ -14,6 +14,22 @@ You can find my papers on [Google Scholar](https://scholar.google.com/citations?
 
 ### 🌟 Beyond the ML Research
 
+**Recommended Recent Recordings (keep updating)**
+
+<div class="album-row">
+{% for rec in site.data.albums.recordings %}
+  <div class="album-item">
+    <img src="{{ '/albums/' | append: rec.image | relative_url }}" alt="{{ rec.artist }}" class="album-cover">
+    <div class="album-info">
+      <strong>{{ rec.artist }}</strong>
+      {% if rec.work %}<br>{{ rec.work }}{% endif %}
+      {% if rec.album %}<br>{{ rec.album }}{% endif %}
+      {% if rec.ensemble %}<br><span class="album-detail">{{ rec.ensemble }}{% if rec.conductor %}, {{ rec.conductor }}{% endif %}</span>{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+
 Outside of research, I have a diverse set of passions that keep me balanced:
 
 * 🎻 **Classical Music & Opera:** I am a passionate classical music fan and a regular concert and opera goer. My absolute favourite symphony is Mahler's Symphony No. 6 (particularly the recording by Michael Gielen and SWR), and I have a deep appreciation for operas like Richard Strauss's *Der Rosenkavalier* and Richard Wagner's *Tristan und Isolde*.

@@ -1,0 +1,26 @@
+recordings:
+  - artist: "Gustav Mahler"
+    work: "Symphony No. 5"
+    ensemble: "Tonhalle-Orchester Zürich"
+    conductor: "Paavo Järvi"
+    image: "Mahler-5-Jarvi.webp"
+  
+  - artist: "Allan Pettersson"
+    work: "Symphonies Nos. 8 & 10"
+    ensemble: "Norrköping Symphony Orchestra"
+    conductor: "Leif Segerstam"
+    image: "Pettersson-8.webp"
+
+  - artist: "Khrysalid"
+    album: "Khrys"
+    image: "Khrys-Khrysalid.webp"
+
+  - artist: "Joep Beving"
+    album: "Liminal Digital"
+    image: "JoepBevingLiminalDigital.webp"
+
+  - artist: "Sergei Prokofiev"
+    work: "Symphony No. 4"
+    ensemble: "The Cleveland Orchestra"
+    conductor: "Franz Welser-Möst"
+    image: "Prokofiev-4-welser-most.webp"
