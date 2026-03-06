@@ -10,7 +10,7 @@ featured:
     authors: '**Junda Wu**, J Echterhoff, K Han, A Abdelraouf, R Gupta, Julian McAuley'
     venue: 'IV 2025'
 
-  - title: 'In-context ranking preference optimization'
+  - title: 'IRPO: In-context ranking preference optimization'
     authors: '**Junda Wu**, Rohan Surana, Zhouhang Xie, Yiran Jenny Shen, Yu Xia, Tong Yu, Ryan A. Rossi, P Ammanabrolu, Julian McAuley'
     venue: 'COLM 2025'
     url: 'https://arxiv.org/abs/2504.15477'
