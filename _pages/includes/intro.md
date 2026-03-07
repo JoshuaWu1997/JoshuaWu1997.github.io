@@ -14,7 +14,13 @@ You can find my papers on [Google Scholar](https://scholar.google.com/citations?
 
 ### 🌟 Beyond the ML Research
 
-**Recommended Recent Recordings (keep updating)**
+Outside of research, I have a diverse set of passions that keep me balanced:
+
+* 🎻 **Classical Music & Opera:** I am a passionate classical music fan and a regular concert and opera goer. My absolute favourite symphony is Mahler's Symphony No. 6 (particularly the recording by Michael Gielen and SWR), and I have a deep appreciation for operas like Richard Strauss's *Der Rosenkavalier* and Richard Wagner's *Tristan und Isolde*.
+* 🪩 **Rave & Clubbing:** I am drawn to the immersive energy, vibrant communities, and dynamic soundscapes of the electronic music and clubbing scene. 
+* 🥾 **Hiking:** I am an avid outdoorsman always looking for a rewarding ascent. My trail adventures range from group excursions with the *NY Ramblers* to tackling challenging, scenic routes like the *Ohlone Wilderness Trail*, the *John Muir Trail*, and *Mount Diablo*.
+
+* 💿 **Recommended Recent Recordings (keep updating)**
 
 <div class="album-row-wrapper">
 <div class="album-row">
@@ -31,9 +37,3 @@ You can find my papers on [Google Scholar](https://scholar.google.com/citations?
 {% endfor %}
 </div>
 </div>
-
-Outside of research, I have a diverse set of passions that keep me balanced:
-
-* 🎻 **Classical Music & Opera:** I am a passionate classical music fan and a regular concert and opera goer. My absolute favourite symphony is Mahler's Symphony No. 6 (particularly the recording by Michael Gielen and SWR), and I have a deep appreciation for operas like Richard Strauss's *Der Rosenkavalier* and Richard Wagner's *Tristan und Isolde*.
-* 🪩 **Rave & Clubbing:** I am drawn to the immersive energy, vibrant communities, and dynamic soundscapes of the electronic music and clubbing scene. 
-* 🥾 **Hiking:** I am an avid outdoorsman always looking for a rewarding ascent. My trail adventures range from group excursions with the *NY Ramblers* to tackling challenging, scenic routes like the *Ohlone Wilderness Trail*, the *John Muir Trail*, and *Mount Diablo*.
