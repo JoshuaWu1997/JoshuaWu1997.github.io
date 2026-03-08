@@ -18,15 +18,17 @@ B.S. in Statistics, Minor in Computer Science and Engineering
 ## Experiences
 
 * Research Scientist Intern
+  * 🅰️ **Adobe Research**, San Jose — Jun 2025 – Nov 2025 <br>
+  Deep Research in digital marketing for AEP; Developed hypothesis generation and experimental simulation
   * 🅰️ **Adobe Research**, San Jose — Jun 2024 – Nov 2024 <br>
   Multimodal Retrieval in AI Assistant for AEP; Developed Doc-React algorithm for document question-answering
   * 🅰️ **Adobe Research**, San Jose — May 2023 – Aug 2023 <br>
   Knowledge Graph Enhanced Chain-of-Thought Reasoning for Next Prompt Recommendation
   * 🅰️ **Adobe Research**, San Jose — May 2022 – Dec 2022 <br>
   Progressive Image Compression and Syncing for real-time collaborative image editing
-* Conference Reviewer
-  * ACL Rolling Review: ACL, EMNLP, NAACL, COLING
-  * Machine Learning: NeurIPS, ICLR, AISTAT, ICML
+* Conference and Journal Reviewer
+  * LLM and NLP: ACL, EMNLP, NAACL, COLING, COLM
+  * Machine Learning: NeurIPS, ICLR, AISTATS, ICML
   * Data Mining and Recommendation: KDD, CIKM, SIGIR, WWW, TKDE
 
 <!-- ## Awards
