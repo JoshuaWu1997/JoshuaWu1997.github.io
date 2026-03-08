@@ -1,6 +1,7 @@
 # Selected Publications 
 
 <small>*† Corresponding author*</small>
+<small>*\* Equal Contribution*</small>
 
 {% assign grouped = site.data.publications.featured | group_by: "year" | sort: "name" | reverse %}
 {% for year_group in grouped %}
