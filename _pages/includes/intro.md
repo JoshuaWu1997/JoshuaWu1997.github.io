@@ -17,9 +17,7 @@ You can find my papers on [Google Scholar](https://scholar.google.com/citations?
 
 Outside of research, I have a diverse set of passions that keep me balanced:
 
-* 🎻 **Classical Music & Opera:** I am a passionate classical music fan and a regular concert and opera goer. My absolute favourite symphony is Mahler's Symphony No. 6 (particularly the recording by Michael Gielen and SWR), and I have a deep appreciation for operas like Richard Strauss's *Der Rosenkavalier* and Richard Wagner's *Tristan und Isolde*. the *Ohlone Wilderness Trail*, the *John Muir Trail*, and *Mount Diablo*.
-
-💿 **Recommended Recent Recordings (keep updating)**
+* 🎻 **Classical Music & Opera:** I am a passionate classical music fan and a regular concert and opera goer. My absolute favourite symphony is Mahler's Symphony No. 6 (particularly the recording by Michael Gielen and SWR), and I have a deep appreciation for operas like Richard Strauss's *Der Rosenkavalier* and Richard Wagner's *Tristan und Isolde*. the *Ohlone Wilderness Trail*, the *John Muir Trail*, and *Mount Diablo*. 💿 **Recommended Recent Recordings (keep updating)**
 
 <div class="album-row-wrapper">
 <div class="album-row">

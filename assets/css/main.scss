@@ -121,6 +121,8 @@ h1:before, .anchor:before {
 .album-row-wrapper {
   overflow-x: auto;
   margin: 1rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
 }
 
 .album-row {
