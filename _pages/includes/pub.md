@@ -2,12 +2,17 @@
 
 <small>*† Corresponding author*</small>
 
-{% for item in site.data.publications.featured %}
+{% assign grouped = site.data.publications.featured | group_by: "year" | sort: "name" | reverse %}
+{% for year_group in grouped %}
+### {{ year_group.name }}
+
+{% for item in year_group.items %}
 * **{{ item.title }}** <br>
   {{ item.authors }}. <br>
   <span style="background-color: #e6f6ff; padding: 2px; border-radius: 5px;">{{ item.venue }}</span>
   {% if item.url %}[[Paper]({{ item.url }})]{% endif %}
 
+{% endfor %}
 {% endfor %}
 
 ## US Patents
