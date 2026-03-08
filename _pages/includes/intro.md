@@ -17,11 +17,11 @@ You can find my papers on [Google Scholar](https://scholar.google.com/citations?
 
 Outside of research, I have a diverse set of passions that keep me balanced:
 
-* 🎻 **Classical Music & Opera:** I am a passionate classical music fan and a regular concert and opera goer. My absolute favourite symphony is Mahler's Symphony No. 6 (particularly the recording by Michael Gielen and SWR), and I have a deep appreciation for operas like Richard Strauss's *Der Rosenkavalier* and Richard Wagner's *Tristan und Isolde*. 💿 **Recommended Recent Recordings (keep updating)**
+* 🎻 **Classical Music & Opera:** I am a passionate classical music fan and a regular concert and opera goer. My absolute favourite symphony is Mahler's Symphony No. 6 (particularly the recording by Michael Gielen and SWR), and I have a deep appreciation for operas like Richard Strauss's *Der Rosenkavalier* and Richard Wagner's *Tristan und Isolde*. 💿 **Recommended Recent Recordings (keep updating):**
 
 <div class="album-row-wrapper">
 <div class="album-row">
-{% for rec in site.data.albums.recordings %}
+{% for rec in site.data.albums.classical_recordings %}
   <div class="album-item">
     <img src="{{ '/albums/' | append: rec.image | relative_url }}" alt="{{ rec.artist }}" class="album-cover">
     <div class="album-info">
@@ -35,5 +35,22 @@ Outside of research, I have a diverse set of passions that keep me balanced:
 </div>
 </div>
 
-* 🪩 **Rave & Clubbing:** I am drawn to the immersive energy, vibrant communities, and dynamic soundscapes of the electronic music and clubbing scene. 
-* 🥾 **Hiking:** I am an avid outdoorsman always looking for a rewarding ascent. My trail adventures range from group excursions with the *NY Ramblers* to tackling challenging, scenic routes like the *Ohlone Wilderness Trail*, the *John Muir Trail*, and *Mount Diablo*. 
+* 🪩 **Rave & Clubbing:** I am drawn to the immersive energy, vibrant communities, and dynamic soundscapes of the electronic music and clubbing scene. **Some Techno/Post-rave Recordings:**
+
+<div class="album-row-wrapper">
+<div class="album-row">
+{% for rec in site.data.albums.techno_recordings %}
+  <div class="album-item">
+    <img src="{{ '/albums/' | append: rec.image | relative_url }}" alt="{{ rec.artist }}" class="album-cover">
+    <div class="album-info">
+      <strong>{{ rec.artist }}</strong>
+      {% if rec.work %}<br>{{ rec.work }}{% endif %}
+      {% if rec.album %}<br>{{ rec.album }}{% endif %}
+      {% if rec.ensemble %}<br><span class="album-detail">{{ rec.ensemble }}{% if rec.conductor %}, {{ rec.conductor }}{% endif %}</span>{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+</div>
+
+* 🥾 **Hiking:** I am an avid outdoorsman always looking for a rewarding ascent. My trail adventures range from group excursions with the *NY Ramblers* to tackling challenging, scenic routes like the *Ohlone Wilderness Trail*, the *John Muir Trail*, and *Mount Diablo*. Follow me on [Alltrails](https://www.alltrails.com/en-gb/members/junda-wu?utm_campaign=mobile-iphone&sh=zuaxap)

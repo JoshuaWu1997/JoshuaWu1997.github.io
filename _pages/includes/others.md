@@ -27,7 +27,7 @@ B.S. in Statistics, Minor in Computer Science and Engineering
   * 🅰️ **Adobe Research**, San Jose — May 2022 – Dec 2022 <br>
   Progressive Image Compression and Syncing for real-time collaborative image editing
 * Conference and Journal Reviewer
-  * LLM and NLP: ACL, EMNLP, NAACL, COLING, COLM
+  * LLM and NLP: ACL, EMNLP, NAACL, EACL, COLING, COLM
   * Machine Learning: NeurIPS, ICLR, AISTATS, ICML
   * Data Mining and Recommendation: KDD, CIKM, SIGIR, WWW, TKDE
 
