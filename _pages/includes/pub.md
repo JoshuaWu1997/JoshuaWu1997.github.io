@@ -12,6 +12,7 @@
   {{ item.authors }}. <br>
   <span style="background-color: #e6f6ff; padding: 2px; border-radius: 5px;">{{ item.venue }}</span>
   {% if item.url %}[[Paper]({{ item.url }})]{% endif %}
+  {% if item.code %}[[Code]({{ item.code }})]{% endif %}
 
 {% endfor %}
 {% endfor %}
