@@ -1,0 +1,12 @@
+# Table of contents sections (order matches page flow)
+sections:
+  - id: about-me
+    title: About Me
+  - id: news
+    title: News
+  - id: selected-publications
+    title: Publications
+  - id: presentations
+    title: Talks
+  - id: cv
+    title: CV

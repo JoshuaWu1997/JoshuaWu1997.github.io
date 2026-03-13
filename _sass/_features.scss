@@ -1,0 +1,398 @@
+/* ==========================================================================
+   Site Features: TOC, Back-to-top, Dark Mode, Reduced Motion
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Reduced Motion - respect user preference
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Page Table of Contents (sticky/floating)
+   -------------------------------------------------------------------------- */
+.page-toc {
+  display: none;
+  position: fixed;
+  top: 6em;
+  right: 2%;
+  max-width: 180px;
+  z-index: 100;
+  background: var(--toc-bg, #fff);
+  border: 1px solid var(--toc-border, #e6e6e6);
+  border-radius: 4px;
+  padding: 0.75em 1em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-height: calc(100vh - 8em);
+  overflow-y: auto;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
+.page-toc__title {
+  font-size: 0.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--toc-title-color, #7a8288);
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--toc-border, #e6e6e6);
+}
+
+.page-toc__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-toc__item {
+  margin: 0.25em 0;
+}
+
+.page-toc__link {
+  display: block;
+  font-size: 0.85em;
+  color: var(--toc-link-color, #666);
+  text-decoration: none;
+  padding: 0.2em 0;
+  border-left: 2px solid transparent;
+  padding-left: 0.5em;
+  margin-left: -0.5em;
+  transition: color 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    color: var(--toc-link-hover, #479dde);
+  }
+
+  &.active {
+    color: var(--toc-link-active, #479dde);
+    font-weight: 600;
+    border-left-color: var(--toc-link-active, #479dde);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Back to Top Button
+   -------------------------------------------------------------------------- */
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0;
+  border: 1px solid var(--back-to-top-border, #e6e6e6);
+  border-radius: 50%;
+  background: var(--back-to-top-bg, #fff);
+  color: var(--back-to-top-color, #333);
+  cursor: pointer;
+  z-index: 99;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    background: var(--back-to-top-hover-bg, #f5f5f5);
+    transform: translateY(-2px);
+  }
+
+  &.visible {
+    display: flex;
+  }
+}
+
+.back-to-top__icon {
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+/* --------------------------------------------------------------------------
+   Theme Toggle (Dark Mode)
+   -------------------------------------------------------------------------- */
+.theme-toggle {
+  position: fixed;
+  top: 4em;
+  right: 1em;
+  width: 2.25em;
+  height: 2.25em;
+  padding: 0;
+  border: 1px solid var(--theme-toggle-border, #e6e6e6);
+  border-radius: 50%;
+  background: var(--theme-toggle-bg, #fff);
+  color: var(--theme-toggle-color, #333);
+  cursor: pointer;
+  z-index: 101;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  transition: background 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    background: var(--theme-toggle-hover-bg, #f5f5f5);
+  }
+}
+
+.theme-toggle__icon--dark {
+  display: none;
+}
+
+.theme-toggle__icon--light {
+  display: inline;
+}
+
+/* Dark mode: show moon, hide sun */
+html[data-theme="dark"] .theme-toggle__icon--dark {
+  display: inline;
+}
+
+html[data-theme="dark"] .theme-toggle__icon--light {
+  display: none;
+}
+
+/* --------------------------------------------------------------------------
+   Dark Mode CSS Variables
+   -------------------------------------------------------------------------- */
+html {
+  --body-bg: #fff;
+  --text-color: #494e52;
+  --heading-color: #494e52;
+  --link-color: #479dde;
+  --link-hover: #2d7ab8;
+  --border-color: #e6e6e6;
+  --code-bg: #fafafa;
+  --masthead-bg: #f8f9fa;
+  --masthead-border: #e6e6e6;
+  --sidebar-bg: transparent;
+  --toc-bg: #fff;
+  --toc-border: #e6e6e6;
+  --toc-title-color: #7a8288;
+  --toc-link-color: #666;
+  --toc-link-hover: #479dde;
+  --toc-link-active: #479dde;
+  --back-to-top-bg: #fff;
+  --back-to-top-border: #e6e6e6;
+  --back-to-top-color: #333;
+  --back-to-top-hover-bg: #f5f5f5;
+  --theme-toggle-bg: #fff;
+  --theme-toggle-border: #e6e6e6;
+  --theme-toggle-color: #333;
+  --theme-toggle-hover-bg: #f5f5f5;
+  --pub-venue-bg: #e6f6ff;
+  --pub-filter-bg: #f8f9fa;
+  --pub-filter-border: #e6e6e6;
+}
+
+html[data-theme="dark"] {
+  --body-bg: #1a1a1a;
+  --text-color: #e0e0e0;
+  --heading-color: #f0f0f0;
+  --link-color: #6eb3f7;
+  --link-hover: #9cc9fa;
+  --border-color: #333;
+  --code-bg: #2d2d2d;
+  --masthead-bg: #252525;
+  --masthead-border: #333;
+  --sidebar-bg: transparent;
+  --toc-bg: #252525;
+  --toc-border: #333;
+  --toc-title-color: #a0a0a0;
+  --toc-link-color: #b0b0b0;
+  --toc-link-hover: #6eb3f7;
+  --toc-link-active: #6eb3f7;
+  --back-to-top-bg: #252525;
+  --back-to-top-border: #333;
+  --back-to-top-color: #e0e0e0;
+  --back-to-top-hover-bg: #333;
+  --theme-toggle-bg: #252525;
+  --theme-toggle-border: #333;
+  --theme-toggle-color: #e0e0e0;
+  --theme-toggle-hover-bg: #333;
+  --pub-venue-bg: #2a3a4a;
+  --pub-filter-bg: #252525;
+  --pub-filter-border: #333;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--text-color);
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+  color: var(--heading-color);
+}
+
+.page__content a {
+  color: var(--link-color);
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
+.page__content .pub-venue-badge {
+  background-color: var(--pub-venue-bg);
+}
+
+/* Masthead/nav dark mode */
+.masthead {
+  background-color: var(--masthead-bg);
+  border-bottom: 1px solid var(--masthead-border);
+}
+
+.greedy-nav a {
+  color: var(--text-color);
+}
+
+/* Sidebar author profile dark mode */
+.sidebar .author__urls a,
+.profile_box {
+  color: var(--text-color);
+}
+
+/* --------------------------------------------------------------------------
+   Publication Filter
+   -------------------------------------------------------------------------- */
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1.5em;
+  padding: 0.75em;
+  background: var(--pub-filter-bg);
+  border: 1px solid var(--pub-filter-border);
+  border-radius: 4px;
+}
+
+.pub-filters__search {
+  flex: 1 1 100%;
+  min-width: 200px;
+  padding: 0.5em 0.75em;
+  border: 1px solid var(--pub-filter-border);
+  border-radius: 4px;
+  background: var(--body-bg);
+  color: var(--text-color);
+  font-size: 0.95em;
+
+  &::placeholder {
+    color: var(--toc-title-color);
+  }
+}
+
+.pub-filters__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.pub-filter-chip {
+  padding: 0.25em 0.6em;
+  border: 1px solid var(--pub-filter-border);
+  border-radius: 999px;
+  background: var(--body-bg);
+  color: var(--text-color);
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+
+  &:hover {
+    background: var(--link-color);
+    color: #fff;
+    border-color: var(--link-color);
+  }
+
+  &.active {
+    background: var(--link-color);
+    color: #fff;
+    border-color: var(--link-color);
+  }
+}
+
+.pub-filter-chip[data-filter="all"] {
+  font-weight: 600;
+}
+
+/* Publication list and items - for filtering */
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-list .pub-item {
+  transition: opacity 0.2s ease;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.pub-list .pub-item:last-child {
+  border-bottom: none;
+}
+
+.pub-item.filtered-out {
+  display: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   Expandable Abstract
+   -------------------------------------------------------------------------- */
+.pub-abstract-toggle {
+  display: inline-block;
+  margin-top: 0.25em;
+  padding: 0.2em 0.5em;
+  font-size: 0.85em;
+  color: var(--link-color);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+  }
+
+  &::before {
+    content: "▸ ";
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+
+  &.expanded::before {
+    transform: rotate(90deg);
+  }
+}
+
+.pub-abstract {
+  display: none;
+  margin-top: 0.5em;
+  padding: 0.75em;
+  background: var(--code-bg);
+  border-radius: 4px;
+  font-size: 0.9em;
+  line-height: 1.5;
+  border-left: 3px solid var(--link-color);
+
+  &.expanded {
+    display: block;
+  }
+}
