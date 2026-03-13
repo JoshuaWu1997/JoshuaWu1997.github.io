@@ -8,6 +8,7 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function(){try{var d=localStorage.getItem('dark-mode');if(d==='1'||(d===null&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();
 </script>
 
 <!-- For all browsers -->
