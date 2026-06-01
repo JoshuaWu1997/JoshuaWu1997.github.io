@@ -1,5 +1,6 @@
 # News
 
+* **May 2026**: Our paper "Dice: Dynamic in-context example selection in llm agents via efficient knowledge transfer" has been accepted to SIGKDD 2026.
 * **May 2026**: Our paper "WS-GRPO: Weakly-Supervised Group-Relative Policy Optimization for Rollout-Efficient Reasoning" has been accepted to ICML 2026.
 * **May 2026**: We released our survey "Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning" on [arXiv](https://arxiv.org/abs/2605.02913).
 * **April 2026**: Three papers have been accepted to ACL 2026.
