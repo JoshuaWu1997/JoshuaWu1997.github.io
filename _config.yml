@@ -9,7 +9,7 @@
 # Use custom layouts (_layouts/) - disable default theme for GitHub Pages
 theme                    : null
 title                    : "Junda (Joshua) Wu"
-description              : "Ph.D. Student @ UC San Diego"
+description              : "Research Scientist @ Adobe Research"
 repository               : "JoshuaWu1997.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -25,12 +25,13 @@ baidu_site_verification  :
 author:
   name             : "Junda (Joshua) Wu"
   avatar           : "images/photo_2.jpg"
-  bio              : 
-  location         : "La Jolla, CA"
-  employer         :
+  bio              : "Research Scientist at Adobe Research"
+  location         : "San Jose, CA"
+  employer         : "Adobe Research"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=_iKeQFwAAAAJ&hl=en&oi=ao"
-  email            : "juw069@ucsd.edu"
+  email            : "jundaw@adobe.com"
+  email_ucsd       : "juw069@ucsd.edu"
   researchgate     : 
   uri              :
   bitbucket        :

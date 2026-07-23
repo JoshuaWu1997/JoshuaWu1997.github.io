@@ -1,6 +1,6 @@
 # About Me
 
-I am a Ph.D. student in Computer Science at [University of California San Diego](https://ucsd.edu/), advised by Prof. [Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/). I received my M.S. in Computer Engineering from New York University and B.S. in Statistics and Computer Science/Engineering from Chongqing University.
+I am a Research Scientist at Adobe Research. I recently graduated with a Ph.D. in Computer Science from [University of California San Diego](https://ucsd.edu/), where I was advised by Prof. [Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/). I received my M.S. in Computer Engineering from New York University and B.S. in Statistics and Computer Science/Engineering from Chongqing University.
 
 My research focuses on **large language models**, **reinforcement learning**, **multimodal learning**, and **recommender systems**, with an emphasis on reasoning, personalization, and agentic workflows. I enjoy working at the intersection of language, vision, music, and sequential decision-making. Specifically, my core research interests span:
 

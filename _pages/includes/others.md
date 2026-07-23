@@ -6,7 +6,7 @@
 
 ## Educations
 
-* :trident: **University of California San Diego**, Sep 2023 – Now <br>
+* :trident: **University of California San Diego**, Sep 2023 – 2026 <br>
 Ph.D. in Computer Science
 
 * :part_alternation_mark: **New York University**, Sep 2021 – May 2023 <br>
@@ -16,6 +16,9 @@ M.S. in Computer Engineering
 B.S. in Statistics, Minor in Computer Science and Engineering
 
 ## Experiences
+
+* Research Scientist
+  * 🅰️ **Adobe Research**, San Jose — 2026 – Present
 
 * Research Scientist Intern
   * 🅰️ **Adobe Research**, San Jose — Jun 2025 – Nov 2025 <br>
