@@ -23,7 +23,7 @@ Outside of research, I have a diverse set of passions that keep me balanced:
 <div class="album-row">
 {% for rec in site.data.albums.classical_recordings %}
   <div class="album-item">
-    <img src="{{ '/albums/' | append: rec.image | relative_url }}" alt="{{ rec.artist }}" class="album-cover">
+    {% if rec.url %}<a href="{{ rec.url }}" target="_blank" rel="noopener"><img src="{{ '/albums/' | append: rec.image | relative_url }}" alt="{{ rec.artist }}" class="album-cover"></a>{% else %}<img src="{{ '/albums/' | append: rec.image | relative_url }}" alt="{{ rec.artist }}" class="album-cover">{% endif %}
     <div class="album-info">
       <strong>{{ rec.artist }}</strong>
       {% if rec.work %}<br>{{ rec.work }}{% endif %}
@@ -41,7 +41,7 @@ Outside of research, I have a diverse set of passions that keep me balanced:
 <div class="album-row">
 {% for rec in site.data.albums.techno_recordings %}
   <div class="album-item">
-    <img src="{{ '/albums/' | append: rec.image | relative_url }}" alt="{{ rec.artist }}" class="album-cover">
+    {% if rec.url %}<a href="{{ rec.url }}" target="_blank" rel="noopener"><img src="{{ '/albums/' | append: rec.image | relative_url }}" alt="{{ rec.artist }}" class="album-cover"></a>{% else %}<img src="{{ '/albums/' | append: rec.image | relative_url }}" alt="{{ rec.artist }}" class="album-cover">{% endif %}
     <div class="album-info">
       <strong>{{ rec.artist }}</strong>
       {% if rec.work %}<br>{{ rec.work }}{% endif %}
