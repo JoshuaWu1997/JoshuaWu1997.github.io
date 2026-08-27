@@ -60,19 +60,19 @@ techno_recordings:
   - artist: "Khrys"
     album: "Khrysalid"
     image: "Khrys-Khrysalid.webp"
-
-  - artist: "Joep Beving"
-    album: "Liminal"
-    image: "JoepBevingLiminalDigital.webp"
+    url: "https://music.apple.com/us/album/khrysalid/1874233616"
 
   - artist: "Asco"
     album: "Symphony of CAOS"
     image: "symphony of caos-asco.webp"
+    url: "https://open.spotify.com/album/5a4D6jvt3SdybSimfOoq3n"
 
   - artist: "Sounds From the Ground"
     album: "Thru the Ages"
     image: "thru the ages-sounds from the ground.jpg"
+    url: "https://soundsfromtheground1.bandcamp.com/album/thru-the-ages"
 
   - artist: "Morton Subotnick"
     album: "Electronic Works 3"
     image: "electronic works 3-morton subotnick.webp"
+    url: "https://mortonsubotnick.bandcamp.com/album/morton-subotnick-vol-3-electronic-works-mode237"
