@@ -160,9 +160,9 @@ index:
   - {title: 'Sim-to-real interactive recommendation via off-dynamics reinforcement learning', authors: '**Junda Wu**, Zhihui Xie, Tong Yu, Qizhi Li, Shuai Li', venue: 'NeurIPS 2021 Workshop', url: 'https://offline-rl-neurips.github.io/2021/pdf/50.pdf', year: 2021}
 
 patents:
-  - {title: 'Chain-of-thought machine-learning model debiasing', authors: 'Haoliang Wang, Xiang Chen, Tong Yu, Sungchul Kim, Ryan A. Rossi, **Junda Wu**, Anup B. Rao', venue: 'US Patent App. 18/673,547', year: 2025}
+  - {title: 'Progressive image compression and syncing', authors: '**Junda Wu**, Haoliang Wang, Tong Yu, Stefano Petrangeli, Gang Wu, Viswanathan Swaminathan, Sungchul Kim, Ryan A. Rossi', venue: 'US Patent 12,579,699', year: 2026}
+  - {title: 'Dialogue state aware dialogue summarization', authors: 'Haoliang Wang, Kaige Xie, Tong Yu, **Junda Wu**, Handong Zhao, Ruiyi Zhang, Kanak Mahadik, Ani Nenkova', venue: 'US Patent 12,566,925', year: 2026}
   - {title: 'Transferable clustering of contextual bandits for cloud service resource allocation', authors: 'Kanak Mahadik, Tong Yu, **Junda Wu**', venue: 'US Patent 12,294,529', year: 2025}
-  - {title: 'Progressive image compression and syncing', authors: '**Junda Wu**, Haoliang Wang, Tong Yu, Stefano Petrangeli, Gang Wu, Viswanathan Swaminathan, Sungchul Kim, Ryan A. Rossi', venue: 'US Patent App. 18/451,201', year: 2025}
+  - {title: 'Chain-of-thought machine-learning model debiasing', authors: 'Haoliang Wang, Xiang Chen, Tong Yu, Sungchul Kim, Ryan A. Rossi, **Junda Wu**, Anup B. Rao', venue: 'US Patent App. 18/673,547', year: 2025}
   - {title: 'Dialogue skeleton assisted prompt transfer for dialogue summarization', authors: 'Tong Yu, Kaige Xie, **Junda Wu**, Handong Zhao, Ruiyi Zhang, Kanak Mahadik, Ani Nenkova', venue: 'US Patent App. 18/355,901', year: 2025}
-  - {title: 'Dialogue state aware dialogue summarization', authors: 'Haoliang Wang, Kaige Xie, Tong Yu, **Junda Wu**, Handong Zhao, Ruiyi Zhang, Kanak Mahadik, Ani Nenkova', venue: 'US Patent App. 18/343,389', year: 2025}
   - {title: 'Contextual query generation', authors: 'Haoliang Wang, Tong Yu, Sungchul Kim, Ruiyi Zhang, Peng Xu, **Junda Wu**, Handong Zhao, Ani Nenkova', venue: 'US Patent App. 18/339,694', year: 2024}
