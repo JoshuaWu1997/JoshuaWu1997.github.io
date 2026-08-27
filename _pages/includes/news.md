@@ -1,5 +1,7 @@
 # News
 
+* **August 2026**: Seven papers have been accepted to EMNLP 2026.
+* **July 2026**: Three papers have been accepted to ISMIR 2026.
 * **May 2026**: Our paper "Dice: Dynamic in-context example selection in llm agents via efficient knowledge transfer" has been accepted to SIGKDD 2026.
 * **May 2026**: Our paper "WS-GRPO: Weakly-Supervised Group-Relative Policy Optimization for Rollout-Efficient Reasoning" has been accepted to ICML 2026.
 * **May 2026**: We released our survey "Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning" on [arXiv](https://arxiv.org/abs/2605.02913).
