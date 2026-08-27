@@ -40,6 +40,18 @@ classical_recordings:
     url: "https://store.deutschegrammophon.com/en-en/products/bamberger-symphoniker-jakub-hrusa-martinu-complete-symphonies-113122"
 
 techno_recordings:
+  - artist: "Charlotte de Witte"
+    album: "b2b ¥ØU$UK€ ¥UK1MAT$U"
+    ensemble: "Under the K Bridge Park, Brooklyn"
+    image: "CharlotteDeWitte-KBridge.jpg"
+    url: "https://www.bandsintown.com/e/108183689-charlotte-de-witte-at-under-the-%27k%27-bridge-park"
+
+  - artist: "WhoMadeWho"
+    album: "Live"
+    ensemble: "Brooklyn Storehouse, New York"
+    image: "WhoMadeWho-BrooklynStorehouse.jpg"
+    url: "https://ma.to/event/whomadewho-live-brooklyn-storehouse-25-apr-2026"
+
   - artist: "Khrys"
     album: "Khrysalid"
     image: "Khrys-Khrysalid.webp"
