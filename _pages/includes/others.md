@@ -29,6 +29,8 @@ B.S. in Statistics, Minor in Computer Science and Engineering
   Knowledge Graph Enhanced Chain-of-Thought Reasoning for Next Prompt Recommendation
   * 🅰️ **Adobe Research**, San Jose — May 2022 – Dec 2022 <br>
   Progressive Image Compression and Syncing for real-time collaborative image editing
+* Senior Program Committee (SPC)
+  * AAAI 2027
 * Conference and Journal Reviewer
   * LLM and NLP: ACL, EMNLP, NAACL, EACL, COLING, COLM
   * Machine Learning: NeurIPS, ICLR, AISTATS, ICML
