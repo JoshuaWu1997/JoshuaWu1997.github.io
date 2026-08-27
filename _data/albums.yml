@@ -16,7 +16,7 @@ classical_recordings:
     ensemble: "Czech Philharmonic"
     conductor: "Semyon Bychkov"
     image: "Mahler-Cycle-Bychkov-Czech.jpg"
-    url: "https://www.pentatonemusic.com/complete-mahler-cycle-czech-philharmonic-semyon-bychkov/"
+    url: "https://semyonbychkov.com/project-mahler-symphony-no-1-9/"
 
   - artist: "Franz Schubert"
     work: "The Complete Symphonies"
@@ -31,6 +31,13 @@ classical_recordings:
     conductor: "Nathalie Stutzmann"
     image: "Bruckner-4-Stutzmann-ASO.webp"
     url: "https://www.prestomusic.com/classical/products/9863722--bruckner-symphony-no-4-romantic"
+
+  - artist: "Bohuslav Martinů"
+    work: "The Complete Symphonies"
+    ensemble: "Bamberger Symphoniker"
+    conductor: "Jakub Hrůša"
+    image: "Martinu-Symphonies-Hrusa.jpg"
+    url: "https://store.deutschegrammophon.com/en-en/products/bamberger-symphoniker-jakub-hrusa-martinu-complete-symphonies-113122"
 
 techno_recordings:
   - artist: "Khrys"

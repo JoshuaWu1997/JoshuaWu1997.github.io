@@ -127,7 +127,8 @@ h1:before, .anchor:before {
 
 .album-row {
   display: grid;
-  grid-template-columns: repeat(5, 140px);
+  grid-auto-flow: column;
+  grid-auto-columns: 140px;
   gap: 1.5rem;
   min-width: min-content;
   align-items: stretch;
