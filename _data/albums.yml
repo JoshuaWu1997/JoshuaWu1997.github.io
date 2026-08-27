@@ -52,6 +52,11 @@ techno_recordings:
     image: "WhoMadeWho-BrooklynStorehouse.jpg"
     url: "https://ma.to/event/whomadewho-live-brooklyn-storehouse-25-apr-2026"
 
+  - artist: "Fred again.."
+    album: "USB"
+    image: "FredAgain-USB.jpg"
+    url: "https://open.spotify.com/album/1Lhv9Fe2KRk0NW3I14HsVY"
+
   - artist: "Khrys"
     album: "Khrysalid"
     image: "Khrys-Khrysalid.webp"
